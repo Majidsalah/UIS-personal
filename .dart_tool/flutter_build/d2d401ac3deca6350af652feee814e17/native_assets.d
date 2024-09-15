@@ -1,0 +1,1 @@
+ D:\\flutterApps\\training\\UIS_Personal-main\\.dart_tool\\flutter_build\\d2d401ac3deca6350af652feee814e17\\native_assets.yaml: 
