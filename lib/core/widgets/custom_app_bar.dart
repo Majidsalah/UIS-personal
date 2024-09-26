@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
+import 'package:uis_attendance/core/cache_helper/shared_prefrences.dart';
 import 'package:uis_attendance/core/utils/app_colors.dart';
 import 'package:uis_attendance/core/utils/app_lang_state.dart';
 import 'package:uis_attendance/core/utils/app_router.dart';
@@ -55,9 +56,10 @@ class _CustomAppBarState extends State<CustomAppBar> {
             ),
             const Spacer(),
             GestureDetector(
-                onTap: () {
-                  BlocProvider.of<AppLangugeCubit>(context).appCurrentLang(
-                      _isLangAr ? AppLangState.ar : AppLangState.en);
+                onTap: () async {
+                  await BlocProvider.of<AppLangugeCubit>(context)
+                      .appCurrentLang(
+                          _isLangAr ? AppLangState.ar : AppLangState.en);
                   setState(() {
                     _isLangAr = !_isLangAr;
                   });
@@ -73,6 +75,7 @@ class _CustomAppBarState extends State<CustomAppBar> {
             widget.isManyIcons
                 ? GestureDetector(
                     onTap: () {
+                      ShPref.delete("nationalId");
                       GoRouter.of(context)
                           .pushReplacement(AppRouter.kUserDetailsScreen);
                     },

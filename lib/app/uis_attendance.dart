@@ -36,7 +36,7 @@ class UisAttendance extends StatelessWidget {
                   return MaterialApp.router(
                     locale: Locale(lang is AppLangugeAr ? "ar" : "en"),
                     debugShowCheckedModeBanner: false,
-                    routerConfig:AppRouter.router ,
+                    routerConfig: AppRouter.router,
                     title: 'UIS Personal',
                     theme: theme is AppThemeDark
                         ? ThemeData.dark()
@@ -67,6 +67,4 @@ class UisAttendance extends StatelessWidget {
       child: const UserDetailsScreen(),
     );
   }
-
- 
 }

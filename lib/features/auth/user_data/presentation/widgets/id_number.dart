@@ -16,7 +16,6 @@ class IdNumber extends StatefulWidget {
 
 class _IdNumberState extends State<IdNumber> {
   bool _isComplete = false;
-
   @override
   Widget build(BuildContext context) {
     return Row(
@@ -50,7 +49,7 @@ class _IdNumberState extends State<IdNumber> {
             keyboardType: TextInputType.number,
             maxLength: 14,
             decoration: InputDecoration(
-                labelText:  "id".tr(context),
+                labelText: "id".tr(context),
                 prefixIcon: Icon(
                   Icons.badge,
                   color: AppColors.kPrimaryColor,

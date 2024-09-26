@@ -7,8 +7,6 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await ShPref.init();
   setup();
- 
-  runApp(const UisAttendance());
-  
-}
 
+  runApp(const UisAttendance());
+}

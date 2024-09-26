@@ -4,14 +4,15 @@ import 'package:uis_attendance/core/utils/app_colors.dart';
 class CustomButton extends StatelessWidget {
   const CustomButton({
     super.key,
-    required this.title, required this.ontap,
+    required this.title,
+    required this.ontap,
   });
   final String title;
   final Function()? ontap;
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap:ontap,
+      onTap: ontap,
       child: Container(
         width: 270,
         height: 42,

@@ -14,4 +14,3 @@ final class AttendanceRecordLoading extends AttendanceRecordState {}
 final class AttendanceRecordSucess extends AttendanceRecordState {}
 
 final class AttendanceRecordFailure extends AttendanceRecordState {}
-

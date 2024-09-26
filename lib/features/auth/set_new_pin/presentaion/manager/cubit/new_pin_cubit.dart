@@ -9,7 +9,7 @@ class NewPinCubit extends Cubit<NewPinState> {
   NewPinCubit() : super(NewPinInitial());
 
   var newPinRepo = getIt.get<NewPinRepositoryImpl>();
-  
+
   Future<void> resetPin(String newPinNumber) async {
     emit(NewPinLoading());
 

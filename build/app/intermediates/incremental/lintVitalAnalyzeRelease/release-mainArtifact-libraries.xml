@@ -262,22 +262,14 @@
       jars="C:\Users\maged\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk8\1.9.0\e000bd084353d84c9e888f6fb341dc1f5b79d948\kotlin-stdlib-jdk8-1.9.0.jar"
       resolved="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0"/>
   <library
-      name="io.flutter:armeabi_v7a_release:1.0.0-a6bd3f1de158bb61090e0c8053df93a10cb548e1@jar"
-      jars="C:\Users\maged\.gradle\caches\modules-2\files-2.1\io.flutter\armeabi_v7a_release\1.0.0-a6bd3f1de158bb61090e0c8053df93a10cb548e1\f7b9a38b5ca20f78f36dc79d5d575b711c7a957b\armeabi_v7a_release-1.0.0-a6bd3f1de158bb61090e0c8053df93a10cb548e1.jar"
-      resolved="io.flutter:armeabi_v7a_release:1.0.0-a6bd3f1de158bb61090e0c8053df93a10cb548e1"/>
+      name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.0@jar"
+      jars="C:\Users\maged\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk7\1.9.0\f320478990d05e0cfaadd74f9619fd6027adbf37\kotlin-stdlib-jdk7-1.9.0.jar"
+      resolved="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.0"/>
   <library
-      name="io.flutter:arm64_v8a_release:1.0.0-a6bd3f1de158bb61090e0c8053df93a10cb548e1@jar"
-      jars="C:\Users\maged\.gradle\caches\modules-2\files-2.1\io.flutter\arm64_v8a_release\1.0.0-a6bd3f1de158bb61090e0c8053df93a10cb548e1\138db0e7eeedf8acef72c5d82fdbdf03981f0c7a\arm64_v8a_release-1.0.0-a6bd3f1de158bb61090e0c8053df93a10cb548e1.jar"
-      resolved="io.flutter:arm64_v8a_release:1.0.0-a6bd3f1de158bb61090e0c8053df93a10cb548e1"/>
-  <library
-      name="io.flutter:x86_64_release:1.0.0-a6bd3f1de158bb61090e0c8053df93a10cb548e1@jar"
-      jars="C:\Users\maged\.gradle\caches\modules-2\files-2.1\io.flutter\x86_64_release\1.0.0-a6bd3f1de158bb61090e0c8053df93a10cb548e1\457a71925bd448da221d2032c44a2b4faad12206\x86_64_release-1.0.0-a6bd3f1de158bb61090e0c8053df93a10cb548e1.jar"
-      resolved="io.flutter:x86_64_release:1.0.0-a6bd3f1de158bb61090e0c8053df93a10cb548e1"/>
-  <library
-      name="androidx.versionedparcelable:versionedparcelable:1.1.1@aar"
-      jars="C:\Users\maged\.gradle\caches\transforms-3\1aa7c3f3fceb17a944bf142cdc5d588b\transformed\versionedparcelable-1.1.1\jars\classes.jar"
-      resolved="androidx.versionedparcelable:versionedparcelable:1.1.1"
-      folder="C:\Users\maged\.gradle\caches\transforms-3\1aa7c3f3fceb17a944bf142cdc5d588b\transformed\versionedparcelable-1.1.1"
+      name="androidx.annotation:annotation-experimental:1.4.0@aar"
+      jars="C:\Users\maged\.gradle\caches\transforms-3\f1276f94eea7043ecc4ff6837f461bc7\transformed\jetified-annotation-experimental-1.4.0\jars\classes.jar"
+      resolved="androidx.annotation:annotation-experimental:1.4.0"
+      folder="C:\Users\maged\.gradle\caches\transforms-3\f1276f94eea7043ecc4ff6837f461bc7\transformed\jetified-annotation-experimental-1.4.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -287,9 +279,18 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.collection:collection:1.1.0@jar"
-      jars="C:\Users\maged\.gradle\caches\modules-2\files-2.1\androidx.collection\collection\1.1.0\1f27220b47669781457de0d600849a5de0e89909\collection-1.1.0.jar"
-      resolved="androidx.collection:collection:1.1.0"/>
+      name="androidx.savedstate:savedstate:1.2.1@aar"
+      jars="C:\Users\maged\.gradle\caches\transforms-3\3dc30411b40990923282c14d8f21a4db\transformed\jetified-savedstate-1.2.1\jars\classes.jar"
+      resolved="androidx.savedstate:savedstate:1.2.1"
+      folder="C:\Users\maged\.gradle\caches\transforms-3\3dc30411b40990923282c14d8f21a4db\transformed\jetified-savedstate-1.2.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
   <library
       name="androidx.arch.core:core-runtime:2.2.0@aar"
       jars="C:\Users\maged\.gradle\caches\transforms-3\73de493114fd8d42d24e7ec0f577fb0f\transformed\core-runtime-2.2.0\jars\classes.jar"
@@ -308,10 +309,10 @@
       jars="C:\Users\maged\.gradle\caches\modules-2\files-2.1\androidx.arch.core\core-common\2.2.0\5e1b8b81dfd5f52c56a8d53b18ca759c19a301f3\core-common-2.2.0.jar"
       resolved="androidx.arch.core:core-common:2.2.0"/>
   <library
-      name="androidx.savedstate:savedstate:1.2.1@aar"
-      jars="C:\Users\maged\.gradle\caches\transforms-3\3dc30411b40990923282c14d8f21a4db\transformed\jetified-savedstate-1.2.1\jars\classes.jar"
-      resolved="androidx.savedstate:savedstate:1.2.1"
-      folder="C:\Users\maged\.gradle\caches\transforms-3\3dc30411b40990923282c14d8f21a4db\transformed\jetified-savedstate-1.2.1"
+      name="androidx.versionedparcelable:versionedparcelable:1.1.1@aar"
+      jars="C:\Users\maged\.gradle\caches\transforms-3\1aa7c3f3fceb17a944bf142cdc5d588b\transformed\versionedparcelable-1.1.1\jars\classes.jar"
+      resolved="androidx.versionedparcelable:versionedparcelable:1.1.1"
+      folder="C:\Users\maged\.gradle\caches\transforms-3\1aa7c3f3fceb17a944bf142cdc5d588b\transformed\versionedparcelable-1.1.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -320,31 +321,30 @@
       symbolFile="R.txt"
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
+  <library
+      name="androidx.collection:collection:1.1.0@jar"
+      jars="C:\Users\maged\.gradle\caches\modules-2\files-2.1\androidx.collection\collection\1.1.0\1f27220b47669781457de0d600849a5de0e89909\collection-1.1.0.jar"
+      resolved="androidx.collection:collection:1.1.0"/>
   <library
       name="androidx.annotation:annotation-jvm:1.8.0@jar"
       jars="C:\Users\maged\.gradle\caches\modules-2\files-2.1\androidx.annotation\annotation-jvm\1.8.0\b8a16fe526014b7941c1debaccaf9c5153692dbb\annotation-jvm-1.8.0.jar"
       resolved="androidx.annotation:annotation-jvm:1.8.0"/>
   <library
-      name="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.0@jar"
-      jars="C:\Users\maged\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk7\1.9.0\f320478990d05e0cfaadd74f9619fd6027adbf37\kotlin-stdlib-jdk7-1.9.0.jar"
-      resolved="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.0"/>
-  <library
-      name="androidx.annotation:annotation-experimental:1.4.0@aar"
-      jars="C:\Users\maged\.gradle\caches\transforms-3\f1276f94eea7043ecc4ff6837f461bc7\transformed\jetified-annotation-experimental-1.4.0\jars\classes.jar"
-      resolved="androidx.annotation:annotation-experimental:1.4.0"
-      folder="C:\Users\maged\.gradle\caches\transforms-3\f1276f94eea7043ecc4ff6837f461bc7\transformed\jetified-annotation-experimental-1.4.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
       name="org.jetbrains.kotlin:kotlin-stdlib:1.9.0@jar"
       jars="C:\Users\maged\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\1.9.0\8ee15ef0c67dc83d874f412d84378d7f0eb50b63\kotlin-stdlib-1.9.0.jar"
       resolved="org.jetbrains.kotlin:kotlin-stdlib:1.9.0"/>
+  <library
+      name="io.flutter:armeabi_v7a_release:1.0.0-a6bd3f1de158bb61090e0c8053df93a10cb548e1@jar"
+      jars="C:\Users\maged\.gradle\caches\modules-2\files-2.1\io.flutter\armeabi_v7a_release\1.0.0-a6bd3f1de158bb61090e0c8053df93a10cb548e1\f7b9a38b5ca20f78f36dc79d5d575b711c7a957b\armeabi_v7a_release-1.0.0-a6bd3f1de158bb61090e0c8053df93a10cb548e1.jar"
+      resolved="io.flutter:armeabi_v7a_release:1.0.0-a6bd3f1de158bb61090e0c8053df93a10cb548e1"/>
+  <library
+      name="io.flutter:arm64_v8a_release:1.0.0-a6bd3f1de158bb61090e0c8053df93a10cb548e1@jar"
+      jars="C:\Users\maged\.gradle\caches\modules-2\files-2.1\io.flutter\arm64_v8a_release\1.0.0-a6bd3f1de158bb61090e0c8053df93a10cb548e1\138db0e7eeedf8acef72c5d82fdbdf03981f0c7a\arm64_v8a_release-1.0.0-a6bd3f1de158bb61090e0c8053df93a10cb548e1.jar"
+      resolved="io.flutter:arm64_v8a_release:1.0.0-a6bd3f1de158bb61090e0c8053df93a10cb548e1"/>
+  <library
+      name="io.flutter:x86_64_release:1.0.0-a6bd3f1de158bb61090e0c8053df93a10cb548e1@jar"
+      jars="C:\Users\maged\.gradle\caches\modules-2\files-2.1\io.flutter\x86_64_release\1.0.0-a6bd3f1de158bb61090e0c8053df93a10cb548e1\457a71925bd448da221d2032c44a2b4faad12206\x86_64_release-1.0.0-a6bd3f1de158bb61090e0c8053df93a10cb548e1.jar"
+      resolved="io.flutter:x86_64_release:1.0.0-a6bd3f1de158bb61090e0c8053df93a10cb548e1"/>
   <library
       name="org.jetbrains.kotlin:kotlin-stdlib-common:1.9.0@jar"
       jars="C:\Users\maged\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-common\1.9.0\cd65c21cfd1eec4d44ef09f9f52b6d9f8a720636\kotlin-stdlib-common-1.9.0.jar"

@@ -656,7 +656,7 @@ library {
 }
 library {
   digests {
-    sha256: "\217F2\\\267w:\320\321&42\304\"\373w\303\346Y>\325\272\214\255fc\222\374\342c\030["
+    sha256: "\376U\326\000\367\270A\271\220{h\314,o\022\004;=\033\265][\331\230\225SH\275\214\366\300\316"
   }
 }
 library_dependencies {
@@ -1048,13 +1048,14 @@ library_dependencies {
 }
 module_dependencies {
   module_name: "base"
-  dependency_index: 21
+  dependency_index: 5
   dependency_index: 51
   dependency_index: 52
   dependency_index: 53
   dependency_index: 0
   dependency_index: 8
   dependency_index: 43
+  dependency_index: 21
   dependency_index: 47
   dependency_index: 49
   dependency_index: 54

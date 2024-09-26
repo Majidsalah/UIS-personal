@@ -8,6 +8,9 @@ sealed class NewPinState extends Equatable {
 }
 
 final class NewPinInitial extends NewPinState {}
+
 final class NewPinLoading extends NewPinState {}
+
 final class NewPinSuccess extends NewPinState {}
+
 final class NewPinFailure extends NewPinState {}

@@ -7,14 +7,15 @@ class DioConsumer extends ApiConsumer {
 
   DioConsumer({required this.dio});
   @override
-  Future get(String path,
-      {Object? data, Map<String, dynamic>? queryParameters}) async {
+  Future get(
+    String path, {
+    Object? data,
+    Map<String, dynamic>? queryParameters,
+    Options? options,
+  }) async {
     try {
-      final response = await dio.get(
-        path,
-        data: data,
-        queryParameters: queryParameters,
-      );
+      final response = await dio.get(path,
+          data: data, queryParameters: queryParameters, options: options);
       return response.data;
     } catch (e) {
       if (e is DioException) {
@@ -31,12 +32,8 @@ class DioConsumer extends ApiConsumer {
       Map<String, dynamic>? queryParameters,
       bool isFromData = false}) async {
     try {
-      final response = await dio.post(
-        path,
-        data: data,
-        queryParameters: queryParameters,
-        options: options
-      );
+      final response = await dio.post(path,
+          data: data, queryParameters: queryParameters, options: options);
       return response.data;
     } catch (e) {
       if (e is DioException) {

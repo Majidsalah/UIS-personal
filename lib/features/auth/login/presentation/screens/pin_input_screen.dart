@@ -19,7 +19,6 @@ class PinInputScreen extends StatelessWidget {
         create: (context) => LoginEmployeeCubit(),
         child: Scaffold(
           backgroundColor: Colors.grey,
-          
           bottomSheet: SizedBox(
             height: 350,
             child: Column(
@@ -33,22 +32,21 @@ class PinInputScreen extends StatelessWidget {
                         color: AppColors.kPrimaryColor)),
                 const SizedBox(height: 30),
                 BlocConsumer<LoginEmployeeCubit, LoginEmployeeState>(
-                  listener: (BuildContext context, LoginEmployeeState state) {
+                  listener: (context, state) {
                     if (state is LoginEmployeeSucess) {
                       DelightToastBar(
-                          snackbarDuration: const Duration(milliseconds: 1000),
+                          snackbarDuration: const Duration(milliseconds: 1500),
                           autoDismiss: true,
                           builder: (context) => CustomToastCard(
                                 color: Colors.green,
-                                text: "loginSuccessMsg".tr(context),
+                                text: "login Success",
                               )).show(context);
-
-                    (context).go(AppRouter.kHomePage);
+                      (context).go(AppRouter.kHomePage);
                     } else if (state is LoginEmployeeFailure) {
                       DelightToastBar(
                         autoDismiss: true,
                         builder: (context) => CustomToastCard(
-                          text: "loginErrorMsg".tr(context),
+                          text: "login Failed",
                           color: const Color.fromARGB(255, 202, 16, 3),
                         ),
                       ).show(context);

@@ -35,7 +35,6 @@ class _ThemeChangeWidgetState extends State<ThemeChangeWidget> {
               BlocProvider.of<AppThemeCubit>(context)
                   .changeTheme(value ? ThemeState.dark : ThemeState.light);
             });
-          
           },
         ),
         SizedBox(height: 25, child: Image.asset(AppImages.darkMode)),

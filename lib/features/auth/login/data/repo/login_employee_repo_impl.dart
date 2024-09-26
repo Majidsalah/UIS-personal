@@ -32,7 +32,6 @@ class LoginEmployeeRepositoryImpl extends LoginEmployeeRepository {
       return right(loginEmployee);
     } catch (e) {
       if (e is DioException) {
-              
         return left(Serverfailure.fromDioError(e));
       }
       log(e.toString());

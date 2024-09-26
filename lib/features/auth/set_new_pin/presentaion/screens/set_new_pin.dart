@@ -76,7 +76,7 @@ class _SetNewPinScreenState extends State<SetNewPinScreen> {
                     DelightToastBar(
                       autoDismiss: true,
                       builder: (context) => CustomToastCard(
-                        text: "pinDoNotMatch".tr(context),
+                        text: "pinDoNotMatch",
                         color: const Color.fromARGB(255, 202, 16, 3),
                       ),
                     ).show(context);
@@ -98,7 +98,7 @@ class _SetNewPinScreenState extends State<SetNewPinScreen> {
                       DelightToastBar(
                         autoDismiss: true,
                         builder: (context) => CustomToastCard(
-                          text: "pinResetSuccess".tr(context),
+                          text: "pinResetSuccess",
                           color: Colors.green,
                         ),
                       ).show(context);
@@ -109,7 +109,7 @@ class _SetNewPinScreenState extends State<SetNewPinScreen> {
                       ontap: () async {
                         BlocProvider.of<NewPinCubit>(context)
                             .resetPin(_secondController.text);
-                        await Future.delayed(const Duration(seconds: 3));
+                        await Future.delayed(const Duration(seconds: 1));
                         // ignore: use_build_context_synchronously
                         (context).pop();
                       },

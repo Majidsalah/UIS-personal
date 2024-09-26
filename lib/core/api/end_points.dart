@@ -6,6 +6,8 @@ class EndPoints {
   static const String setNewPin = '${baseUrl}Employee/ChangePin?';
   static const String attendanceRecord =
       '${baseUrl}Attendance/SaveAttendanceLog?';
+  static const String getAttendanceHistory =
+      '${baseUrl}Attendance/GetAttendanceLogHistory?';
 }
 
 class ApiKeys {
@@ -14,4 +16,6 @@ class ApiKeys {
   static String pinNumber = "Pin";
   static String time = "time";
   static String companyName = "companyName";
+  static String startDate = "startDate";
+  static String endDate = "endDate";
 }

@@ -1,0 +1,4 @@
+#Thu Sep 26 06:10:08 EEST 2024
+base.0=D\:\\flutterApps\\training\\UIS_Personal-main\\build\\app\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

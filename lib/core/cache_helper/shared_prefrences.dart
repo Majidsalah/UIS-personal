@@ -54,7 +54,7 @@ class ShPref {
     return sharedPreferences.getString("Lang");
   }
 
-  static clearAllData() {
-    return sharedPreferences.clear();
+  static delete(String key) {
+    return sharedPreferences.remove(key);
   }
 }
